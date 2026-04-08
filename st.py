@@ -70,9 +70,9 @@ with col_in1:
     st.markdown("#### 👤 Personal & Academic")
     age = st.number_input("Age", min_value=10, max_value=100, value=22, step=1)
     gender = st.selectbox("Gender", ["Male", "Female"])
-    dept = st.selectbox("Department", ["CSE", "EEE", "BBA", "Pharmacy"])
+    dept = st.selectbox("Department", ["CSE", "EEE","ECE","Civil Engineering","Mechanical Engineering","DVM", "BBA", "Pharmacy", "Agriculture","Sociology", "Mathematics","English","Development Studies","Physics","Statistics","FPE","Economics","Botany","zoology","Chemistry","Finance and Banking"])
     level = st.selectbox("Academic Level", ["Level-1", "Level-2", "Level-3", "Level-4"])
-    uni = st.text_input("University", value="HSTU")
+    uni = st.selectbox("University",["HSTU", "DU", "JnU", "RU", "CU", "KU" ,"MBSTU"])
 
 with col_in2:
     st.markdown("#### 🛌 Lifestyle & Stress")
